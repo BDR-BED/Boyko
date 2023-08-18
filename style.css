@@ -1,0 +1,215 @@
+/* Загальні стилі */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Стилі для заголовків */
+h1, h2, h3 {
+  color: #333;
+}
+.nav{
+
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4f4;
+  position: fixed;
+  width:100%;
+  top:0px;
+  left:0px;
+}
+.nav > div > a {
+  text-decoration: none; /* Відмінити підкреслення */
+  color: #333;
+  transition: color 0.3s;
+  margin: 4px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+nav > a:hover {
+  color: #ff6600;
+}
+/* Стилі для навігації */
+a {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4f4;
+  padding: 1rem 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff6600;
+}
+
+/* Стилі для секцій */
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Стилі для проектів у портфоліо */
+.project {
+  margin-bottom: 2rem;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Стилі для футеру */
+footer {
+  background-color: #f4f4f4;
+  padding: 1rem 0;
+  text-align: center;
+}
+#logog{
+  position:fixed;
+  left:0px;
+  top:0px;
+  display:flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top:10px;
+  height:40px;
+  width:40px;
+  background-color: rgb(122, 122, 122);
+  border-radius: 9px;
+  z-index: 1;
+  margin-left: 1rem;
+
+}
+.itrp{
+  align-items: center;
+  text-align: center;
+  background-color: #f4f4f4;
+  height: 30px;
+  width:30px ;
+  border-radius: 7px;
+  
+}
+ .itrp {
+  color:rgb(140, 140, 140);
+  font-family: 'Raleway', cursive; 
+  font-weight: 900;
+  text-decoration: none;
+}
+#homep{
+  margin-top: 60px;
+  border-bottom: 1px solid  rgb(187, 187, 187);
+}
+.imgt{
+  border:4px dashed  rgb(122, 122, 122);
+  border-radius: 2px;
+}
+#about{
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+.dfg{
+  font-weight: 300;
+}
+.listy{
+  
+    list-style: none; /* Відмінити маркери */
+    padding-left: 0; /* Відмінити відступи зліва */
+}
+.bfgh{
+  margin-top:50px;
+}
+.brdbtm{
+  border-top: 1px solid rgb(187, 187, 187);
+}
+#portfolio{
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+.spl{
+  font-weight: 700;
+}
+@media (max-width:500px){
+  .iop{
+   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    
+  }
+  html{
+    background-color: #ff6200;
+  }
+  .nav{
+
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    position: fixed;
+    width:100%;
+  }
+  #homep{
+    margin-top: 128px;
+  }
+  .col-xl-3{
+  margin-top:64px;
+  }
+ 
+  #logog{
+    left: 50%;
+    top: 0;
+    transform: translateX(-100%);
+    position:fixed;
+    display: flex;
+    justify-content: center; /* Центрування по горизонталі */
+    align-items: center; /* Центрування по вертикалі */
+    /* На весь висоту вікна */
+  }
+  .imgt{
+    border:3px dashed  rgb(122, 122, 122);
+    border-radius: 2px;
+  }
+}
+@media (max-width:350px){
+  
+  .g{
+    margin-top: 0px;;
+  }
+  #homep{
+    margin-top: 188px;
+  }
+  .imgt{
+    border:3px dashed  rgb(122, 122, 122);
+    border-radius: 2px;
+  }
+}
+@media(max-width:265px){
+  .gg{
+    margin-top: 0px;;
+  }
+}
+.insttxt{
+  margin:0px;
+  padding:0px;
+  display: inline-block;
+  background-color: #ffffff;
+  text-decoration: none;
+  color:#c10000
+}
+.qwerty{
+  padding:0px;
+  margin:0px;
+}
+  
+
+
