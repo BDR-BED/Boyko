@@ -4,7 +4,14 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.ioput{
+  color:#1100ff
+}
+.ghjj{
+  border-top: 1px solid rgb(187, 187, 187);
+  margin-top:40px;
+  padding-top:40px;
+}
 /* Стилі для заголовків */
 h1, h2, h3 {
   color: #333;
